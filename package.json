@@ -1,0 +1,9 @@
+{
+  "name": "liverpool-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Liverpool FC deep-dive dashboard — legends, trophies, Anfield, records, stories, seasons.",
+  "scripts": {
+    "test": "node scripts/smoke.mjs"
+  }
+}

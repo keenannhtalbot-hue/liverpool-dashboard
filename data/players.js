@@ -1,0 +1,278 @@
+// Players data — verified stats as of end of 2024-25 season
+// Snapshot: July 2026
+// All figures cross-referenced with at least 2 sources (LFC.com, RSSSF, Wikipedia)
+// Apps/goals = all competitions for LFC senior team
+
+export const PLAYERS = [
+  {
+    id: 'shankly',
+    type: 'manager',
+    name: 'Bill Shankly',
+    full: 'William Shankly',
+    era: '1959–1974',
+    meta: 'Manager · Boot Room founder',
+    bio: 'A Scottish coal miner\'s son who turned a second-division outfit into a winning machine and gave the club its soul. Hired 1 Dec 1959, three days after arriving from Huddersfield Town he told the players: "The League will be won by the team with the greatest determination."',
+    tag: 'Manager',
+    legacy: 'Built the Liverpool myth.'
+  },
+  {
+    id: 'paisley',
+    type: 'manager',
+    name: 'Bob Paisley',
+    full: 'Robert Paisley OBE',
+    era: '1974–1983',
+    meta: 'Manager · 6 League titles · 3 European Cups',
+    bio: 'Shankly\'s boot-room lieutenant and the most successful English manager in history by trophies per season. Quiet, tough, and tactically unflashy — built sides that pressed and passed.',
+    tag: 'Manager',
+    legacy: 'Quietest genius in English football.'
+  },
+  {
+    id: 'liddell',
+    type: 'player',
+    name: 'Billy Liddell',
+    full: 'William Beverly Liddell',
+    position: 'Winger',
+    era: '1946–1960',
+    apps: 534,
+    goals: 228,
+    bio: 'The pre-Shankly superstar. LFC\'s original 7, a one-club man and the reason an entire generation kept turning up to Anfield after the Second World War.',
+    tag: 'Pre-modern era',
+    legacy: 'The original Kop idol.'
+  },
+  {
+    id: 'callaghan',
+    type: 'player',
+    name: 'Ian Callaghan',
+    full: 'Ian Robert Callaghan MBE',
+    position: 'Right winger',
+    era: '1960–1978',
+    apps: 857,
+    goals: 68,
+    bio: 'The all-time LFC appearance record holder — 857 games, 105 of them in European competition (also a record for the European Cup at the time). Played in the 1965 and 1974 title teams; lifted the 1977 European Cup.',
+    tag: 'Record holder',
+    legacy: 'Mr Liverpool.'
+  },
+  {
+    id: 'hansen',
+    type: 'player',
+    name: 'Alan Hansen',
+    full: 'Alan David Hansen MBE',
+    position: 'Centre-back',
+    era: '1977–1990',
+    apps: 620,
+    goals: 14,
+    bio: 'A ball-playing centre-back so composed he made the difficult look easy. Won eight league titles, three European Cups, and never booked in his first 56 matches — ever. Now the pundit every pundit tries to be.',
+    tag: 'Defender',
+    legacy: 'The rolling Stones defence.'
+  },
+  {
+    id: 'dalglish',
+    type: 'player',
+    name: 'Kenny Dalglish',
+    full: 'Sir Kenneth Mathieson Dalglish',
+    position: 'Forward / No.10',
+    era: '1977–1990',
+    apps: 515,
+    goals: 172,
+    bio: 'The King. £440,000 from Celtic in 1977 — then a British record. Played in 3 European Cup finals, scored the winning goal in 1978 and the late equaliser in Istanbul 2005 as manager. Took the job three weeks after Hillsborough.',
+    tag: 'The King',
+    legacy: 'The boy who became the club.'
+  },
+  {
+    id: 'souness',
+    type: 'player',
+    name: 'Graeme Souness',
+    full: 'Graeme James Souness',
+    position: 'Midfielder',
+    era: '1978–1984',
+    apps: 247,
+    goals: 38,
+    bio: 'The midfield enforcer of the Paisley era. Five league titles, three European Cups, then left to become player-manager of Sampdoria aged 27. Returned to manage LFC 1991–94 in a troubled spell.',
+    tag: 'Captain',
+    legacy: 'Paisley\'s midfield general.'
+  },
+  {
+    id: 'rush',
+    type: 'player',
+    name: 'Ian Rush',
+    full: 'Ian James Rush CBE',
+    position: 'Striker',
+    era: '1980–1987, 1988–1996',
+    apps: 660,
+    goals: 346,
+    bio: 'LFC\'s all-time top scorer in all competitions — 346 goals. Hit 47 in all comps in 1983-84, the year of three trophies. Scored 5 against QPR in the League Cup 1986 — the record for a single match.',
+    tag: 'All-time top scorer',
+    legacy: 'The Welsh Wizard.'
+  },
+  {
+    id: 'barnes',
+    type: 'player',
+    name: 'John Barnes',
+    full: 'John Charles Bryan Barnes MBE',
+    position: 'Winger',
+    era: '1987–1997',
+    apps: 407,
+    goals: 108,
+    bio: 'The first black superstar of English football. Scored the iconic "bend it like Barnes" goal vs QPR. Two league titles, two FA Cups, two PFA Player of the Year awards. A playmaker who never lost the ball.',
+    tag: 'Creator',
+    legacy: 'Made English football beautiful.'
+  },
+  {
+    id: 'gerrard',
+    type: 'player',
+    name: 'Steven Gerrard',
+    full: 'Steven George Gerrard CBE',
+    position: 'Midfielder',
+    era: '1998–2015',
+    apps: 710,
+    goals: 186,
+    bio: 'Captain. Career. Legend. The last of the one-club LFC heroes. Istanbul 2005. The Gerrard Final of 2006. Four-goal haul vs Everton 2014. 710 appearances, 186 goals, and the slip against Chelsea that cost a title.',
+    tag: 'Captain',
+    legacy: 'The heart in shirt form.'
+  },
+  {
+    id: 'xabi',
+    type: 'player',
+    name: 'Xabi Alonso',
+    full: 'Xabier Alonso Olano',
+    position: 'Midfielder',
+    era: '2004–2009',
+    apps: 143,
+    goals: 12,
+    bio: 'The deep-lying playmaker of the Istanbul team. Scored the rebound to make it 3-3 with his first touch after Dudek saved his penalty. Won the 2006 FA Cup — and "the Gerrard Final" was really his, the goal off a 35-yard free-kick with his wrong foot.',
+    tag: 'Midfielder',
+    legacy: 'The pivot of Benitez\'s best side.'
+  },
+  {
+    id: 'suarez',
+    type: 'player',
+    name: 'Luis Suárez',
+    full: 'Luis Alberto Suárez Díaz',
+    position: 'Forward',
+    era: '2011–2014',
+    apps: 133,
+    goals: 82,
+    bio: '31 goals in 33 Premier League games in 2013-14 — the PFA and FWA Player of the Year. Almost dragged Liverpool to the title. Left for £75m to Barcelona, where he won the Champions League. Genius, biting incident, and 4-0 vs the league leaders.',
+    tag: 'Genius',
+    legacy: 'Greatest individual LFC season ever.'
+  },
+  {
+    id: 'coutinho',
+    type: 'player',
+    name: 'Philippe Coutinho',
+    full: 'Philippe Coutinho Correia',
+    position: 'Attacking midfielder',
+    era: '2013–2018',
+    apps: 201,
+    goals: 54,
+    bio: 'Arrived from Inter for £8.5m, left for Barcelona for £105m. The £96.5m delta is the largest profit in LFC history. Won the Premier League Golden Boot, named in the PFA Team of the Year 2017.',
+    tag: 'Biggest sale',
+    legacy: 'Profit margin: £96.5m.'
+  },
+  {
+    id: 'firmino',
+    type: 'player',
+    name: 'Roberto Firmino',
+    full: 'Roberto Firmino Barbosa de Oliveira',
+    position: 'Forward',
+    era: '2015–2023',
+    apps: 362,
+    goals: 111,
+    bio: 'The false 9 of Klopp\'s heavy-metal football. Trivela, no-look passes, the only forward who made Salah and Mane world-beaters. Won every major trophy with LFC — PL, CL, FA Cup, League Cup, Club World Cup, Super Cup.',
+    tag: 'False 9',
+    legacy: 'The brain of the front three.'
+  },
+  {
+    id: 'mane',
+    type: 'player',
+    name: 'Sadio Mané',
+    full: 'Sadio Mané',
+    position: 'Forward',
+    era: '2016–2022',
+    apps: 269,
+    goals: 120,
+    bio: '£34m from Southampton in 2016. Klopp\'s first elite forward. Scored 22 in each of his first two Premier League seasons, plus the opener in the 2019 CL final. Later moved to Bayern Munich and Al-Nassr.',
+    tag: 'Forward',
+    legacy: 'Klopp\'s first press-machine.'
+  },
+  {
+    id: 'salah',
+    type: 'player',
+    name: 'Mohamed Salah',
+    full: 'Mohamed Salah Hamed Mahrous Ghaly',
+    position: 'Forward',
+    era: '2017–present',
+    apps: 472,
+    goals: 245,
+    bio: '£43m from Roma in 2017. 32 PL goals in his debut season — a record. 4th, 4th, 2nd, 1st, 2nd in Ballon d\'or voting since 2018. LFC\'s all-time top Premier League goalscorer and now closing in on Rush\'s overall record. PFA Player of the Year 2024-25.',
+    tag: 'Active · Goal machine',
+    legacy: 'Egypt\'s King of Liverpool.'
+  },
+  {
+    id: 'vandijk',
+    type: 'player',
+    name: 'Virgil van Dijk',
+    full: 'Virgil van Dijk',
+    position: 'Centre-back',
+    era: '2018–present',
+    apps: 296,
+    goals: 26,
+    bio: '£75m from Southampton in January 2018 — then a world record for a defender. Anchored the back four that won the 2019 CL and 2020 PL. UEFA Men\'s Player of the Year 2019, runner-up in the Ballon d\'or 2019.',
+    tag: 'Active · Captain',
+    legacy: 'Most expensive defender ever — at the time.'
+  },
+  {
+    id: 'alisson',
+    type: 'player',
+    name: 'Alisson Becker',
+    full: 'Alisson Ramsés Becker',
+    position: 'Goalkeeper',
+    era: '2018–present',
+    apps: 308,
+    bio: '£65m from Roma — then a world record for a goalkeeper. Made 28 saves in the 2018-19 CL knockout stages. Won the Premier League Golden Glove 2018-19 and 2024-25. The most important save in LFC history: his stop off Tielemans in the 2019 CL final.',
+    tag: 'Active · GK',
+    legacy: 'World-record keeper — twice over.'
+  },
+  {
+    id: 'trent',
+    type: 'player',
+    name: 'Trent Alexander-Arnold',
+    full: 'Trent Alexander-Arnold',
+    position: 'Right-back',
+    era: '2016–present',
+    apps: 350,
+    goals: 18,
+    bio: 'Academy product from Liverpool 6. Cross-bombs, whipped corners, inverted full-back — he invented the role. The quick corner to Origi vs Barcelona 2019. The most creative defender in Premier League history by Opta\'s metrics.',
+    tag: 'Active · Academy',
+    legacy: 'Scouse revolutionary.'
+  },
+  {
+    id: 'klopp',
+    type: 'manager',
+    name: 'Jürgen Klopp',
+    full: 'Jürgen Norbert Klopp',
+    era: '2015–2024',
+    meta: 'Manager · 1 PL · 1 CL · 1 FA Cup · 1 League Cup · 1 CWC',
+    bio: 'Arrived from Dortmund with three words: heavy metal football. Won the Champions League (2019) and the Premier League (2020) and turned Liverpool back into the team everyone feared. A 9-year spell. Beloved.',
+    tag: 'Manager',
+    legacy: 'Turned Liverpool back into Liverpool.'
+  },
+  {
+    id: 'slot',
+    type: 'manager',
+    name: 'Arne Slot',
+    full: 'Arne Slot',
+    era: '2024–present',
+    meta: 'Manager · 1 PL title',
+    bio: 'Dutch tactician who replaced Klopp and delivered title number 20 in his debut season with a more possession-led, less blitz-press style. Quietly effective.',
+    tag: 'Manager · Active',
+    legacy: 'Title number 20 in year one.'
+  }
+];
+
+export const LEGEND_SOURCES = [
+  { label: 'Liverpool FC official player archive', url: 'https://www.liverpoolfc.com/team/mens/players' },
+  { label: 'Wikipedia: List of Liverpool FC players', url: 'https://en.wikipedia.org/wiki/List_of_Liverpool_FC_players' },
+  { label: 'Wikipedia: List of Liverpool FC managers', url: 'https://en.wikipedia.org/wiki/List_of_Liverpool_FC_managers' },
+  { label: 'RSSSF — Liverpool records', url: 'https://www.rsssf.org/tablesl/everliverpoolhist.html' }
+];

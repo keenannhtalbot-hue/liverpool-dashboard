@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#c8102e" />
+  <meta name="description" content="A fan-built Liverpool FC deep-dive: club identity, legendary players, trophies, Anfield, records, iconic stories, and recent seasons." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="LFC Deep Dive" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <title>Liverpool FC — Deep Dive</title>
+
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./icons/icon-512.png" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="modulepreload" href="./app.js" />
+  <link rel="modulepreload" href="./data/players.js" />
+  <link rel="modulepreload" href="./data/honours.js" />
+  <link rel="modulepreload" href="./data/stories.js" />
+  <link rel="modulepreload" href="./data/records.js" />
+  <link rel="modulepreload" href="./data/eras.js" />
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="topbar" role="banner">
+    <div class="brand">
+      <span class="crest" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="28" height="28" role="img" aria-label="Liverpool crest">
+          <defs>
+            <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#e5394a" />
+              <stop offset="1" stop-color="#a8121f" />
+            </linearGradient>
+          </defs>
+          <path d="M32 4 L58 16 L58 36 C58 50 46 60 32 62 C18 60 6 50 6 36 L6 16 Z"
+                fill="url(#red)" stroke="#fcd000" stroke-width="2"/>
+          <path d="M22 18 L42 18 M16 26 L48 26 M16 32 L48 32 M16 38 L48 38 M22 44 L42 44"
+                stroke="#fcd000" stroke-width="1" opacity="0.55"/>
+          <text x="32" y="56" text-anchor="middle" font-family="Georgia,serif"
+                font-size="9" font-weight="700" fill="#fcd000">LFC</text>
+        </svg>
+      </span>
+      <div class="brand-text">
+        <strong>Liverpool FC</strong>
+        <span>Deep Dive · est. 1892</span>
+      </div>
+    </div>
+    <div class="snapshot" aria-live="polite">
+      <span class="snap-dot"></span>
+      <span>Snapshot · Jul 2026</span>
+    </div>
+  </header>
+
+  <nav class="tablist" role="tablist" aria-label="Liverpool sections">
+    <!-- tabs injected by app.js -->
+  </nav>
+
+  <main id="main">
+
+    <!-- OVERVIEW -->
+    <section class="page" data-page="overview" hidden>
+      <div class="hero">
+        <div class="hero-eyebrow">LIVERPOOL FOOTBALL CLUB</div>
+        <h1>You'll Never Walk Alone</h1>
+        <p class="hero-lede">
+          A 134-year-old football club from Anfield, Merseyside. 20 league titles.
+          Six European Cups. Three UEFA Cups. A trophy room built by working-class
+          pride, a city rebuilt by grief, and a manager in 1974 who turned the
+          whole thing into a religion.
+        </p>
+        <div class="hero-meta">
+          <span>Founded <strong>3 June 1892</strong></span>
+          <span>Ground <strong>Anfield, L4</strong></span>
+          <span>Nickname <strong>The Reds</strong></span>
+          <span>Owner <strong>Fenway Sports Group</strong></span>
+        </div>
+      </div>
+
+      <div class="quickstats" aria-label="Quick stats">
+        <article class="qs">
+          <div class="qs-num">20</div>
+          <div class="qs-label">League titles</div>
+          <div class="qs-sub">2024–25 made it 20 — equalling United</div>
+        </article>
+        <article class="qs">
+          <div class="qs-num">6</div>
+          <div class="qs-label">European Cups</div>
+          <div class="qs-sub">1977 · 1978 · 1981 · 1984 · 2005 · 2019</div>
+        </article>
+        <article class="qs">
+          <div class="qs-num">19</div>
+          <div class="qs-label">Top-flight seasons</div>
+          <div class="qs-sub">Consecutive, 1962–63 onwards</div>
+        </article>
+        <article class="qs">
+          <div class="qs-num">61,905</div>
+          <div class="qs-label">Anfield record crowd</div>
+          <div class="qs-sub">FA Cup v Wolves · 2 Feb 1952</div>
+        </article>
+      </div>
+
+      <section class="card">
+        <h2>What makes Liverpool, Liverpool?</h2>
+        <p>
+          Founded in 1892 by John Houlding after a rent dispute with Everton. Within
+          14 years they'd won two league titles. Then the First World War knocked
+          them flat, and the club spent four decades as a middling second-division
+          side before Bill Shankly arrived in 1959.
+        </p>
+        <p>
+          Shankly's doctrine — work harder than the other team, pass the ball on
+          the ground, treat the supporters as family — turned the club into a
+          winning machine. Bob Paisley quietly won more European Cups than any
+          manager in history. Joe Fagan made it three in five years. Then, on
+          15 April 1989, 97 supporters died at Hillsborough, and the city itself
+          became part of the club's identity — the anthem <em>You'll Never Walk
+          Alone</em> sung for a century of mourning as much as for football.
+        </p>
+        <p>
+          Jürgen Klopp's 2015–24 reign ended a 30-year wait for a league title
+          (2019–20) and added a sixth European Cup in Madrid (2019). Arne Slot
+          delivered title number 20 in 2024–25 — the new English top-flight record
+          shared with Manchester United.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>The identity cheat sheet</h2>
+        <dl class="kv">
+          <div><dt>Anthem</dt><dd><em>You'll Never Walk Alone</em> (Carousel, 1945)</dd></div>
+          <div><dt>Shirt</dt><dd>Red shirts, white shorts, red socks</dd></div>
+          <div><dt>Crest</dt><dd>Liver Bird over twin flames (Shankly/Busby)</dd></div>
+          <div><dt>Mascot</dt><dd>Mighty Red</dd></div>
+          <div><dt>Local derby</dt><dd>Merseyside derby (Everton)</dd></div>
+          <div><dt>European rival</dt><dd>Real Madrid (finals in 1981, 2018)</dd></div>
+          <div><dt>Watchwords</dt><dd>Boot room · pass &amp; move · the people's club</dd></div>
+          <div><dt>Famous fan zones</dt><dd>Pint of Courage, Spoons (Parr St), Anfield Road end</dd></div>
+        </dl>
+      </section>
+
+      <section class="card">
+        <h2>Five things a Liverpool fan won't let you forget</h2>
+        <ol class="ranked">
+          <li><strong>Istanbul 2005.</strong> 3–0 down at half-time to AC Milan, won on penalties. Gerrard's header started it.</li>
+          <li><strong>Anfield 4–0 Barcelona 2019.</strong> Trent's quick corner, Origi's brace, semi-final second leg, no Messi in the team for it.</li>
+          <li><strong>The 30-year wait ending in 2020.</strong> First league title in three decades, behind closed doors because of Covid.</li>
+          <li><strong>Shankly, Paisley, the Boot Room.</strong> Three European Cups in five years, built on a kitchen wall full of tactics.</li>
+          <li><strong>97.</strong> The number on the Kop every matchday. Never forgotten.</li>
+        </ol>
+      </section>
+
+      <p class="footnote">
+        This dashboard is an unofficial fan project. It is not affiliated with,
+        endorsed by, or connected to Liverpool Football Club. All club marks,
+        names, and imagery belong to their respective owners.
+      </p>
+    </section>
+
+    <!-- LEGENDS -->
+    <section class="page" data-page="legends" hidden>
+      <h1>Legends</h1>
+      <p class="lede">The players and managers who shaped the club. Verified appearances and goals; click any card for the long version.</p>
+      <div id="legends-grid" class="grid"></div>
+    </section>
+
+    <!-- HONOURS -->
+    <section class="page" data-page="honours" hidden>
+      <h1>Trophies &amp; Honours</h1>
+      <p class="lede">Every major piece of silverware, by competition, with the year-by-year breakdown.</p>
+      <div id="honours-tables"></div>
+    </section>
+
+    <!-- ANFIELD -->
+    <section class="page" data-page="anfield" hidden>
+      <h1>Anfield</h1>
+      <p class="lede">The home ground since 1892. Bought for £9,000, now worth roughly a billion.</p>
+      <div id="anfield-content"></div>
+    </section>
+
+    <!-- RECORDS -->
+    <section class="page" data-page="records" hidden>
+      <h1>The Numbers</h1>
+      <p class="lede">All-time records, transfer fees, biggest wins, longest runs. Every claim sourced.</p>
+      <div id="records-content"></div>
+    </section>
+
+    <!-- STORIES -->
+    <section class="page" data-page="stories" hidden>
+      <h1>Stories &amp; Moments</h1>
+      <p class="lede">The matches that defined the club. Triumph, tragedy, and the long aftermath in between.</p>
+      <div id="stories-timeline"></div>
+    </section>
+
+    <!-- ERAS -->
+    <section class="page" data-page="eras" hidden>
+      <h1>The Eras</h1>
+      <p class="lede">Eight managerial eras, 134 years, and a pattern that keeps repeating: build, dominate, fall, rebuild.</p>
+      <div id="eras-content"></div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="page" data-page="sources" hidden>
+      <h1>Sources</h1>
+      <p class="lede">Where every number and story in this dashboard came from. Click through to verify.</p>
+      <div id="sources-content"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Unofficial fan project.</strong>
+      Built by Scout · data verified to July 2026.
+      Liverpool Football Club is a trademark of its owners.
+    </div>
+    <div class="footer-tip">
+      <strong>Install:</strong> open in Safari → Share → Add to Home Screen.
+    </div>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
