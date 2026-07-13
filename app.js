@@ -139,12 +139,16 @@ function renderLegends() {
     root.append(card);
   }
   // Source link — appended to the page container (root.parentElement) so it spans the
-  // full width of the page, not a single grid column.
+  // full width of the page, not a single grid column. Guard against duplicate
+  // footnotes if renderLegends() is ever re-called.
+  const parent = root.parentElement;
+  const old = parent.querySelector('.footnote');
+  if (old) old.remove();
   const src = el('p', { class: 'footnote' });
   for (const s of LEGEND_SOURCES) {
     src.append(el('a', { href: s.url, target: '_blank', rel: 'noopener noreferrer', text: s.label }), ' · ');
   }
-  root.parentElement.appendChild(src);
+  parent.appendChild(src);
 }
 
 // ---- RENDER: HONOURS ----

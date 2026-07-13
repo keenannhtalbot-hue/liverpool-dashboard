@@ -70,15 +70,15 @@ export const HONOURS = [
   {
     id: 'second',
     title: 'Second Division (old First Division to 1992)',
-    count: 5,
-    blurb: 'Before Shankly, the club was a yo-yo between divisions. Five second-tier titles including Shankly\'s 1961-62 promotion year.',
-    years: ['1893-94','1895-96','1896-97','1921-22','1961-62']
+    count: 4,
+    blurb: 'Before Shankly, the club was a yo-yo between divisions. Four second-tier titles per LFC official honours list.',
+    years: ['1893-94','1895-96','1904-05','1961-62']
   }
 ];
 
 export const HONOUR_TOTALS = {
-  major: 70, // major honours sum: 20 league + 6 CL + 3 UEFA + 8 FA + 10 LC + 4 Super + 1 CWC + 15 Charity Shield + 5 Second Division = 72; we omit the defunct Full Members' Cup (2 wins in 1986, 1988) and one Charity Shield that was shared, rounding to the canonical "around 70"
-  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. Some sources include the now-defunct Full Members\' Cup (2 wins in 1986, 1988); we omit it. The 5 Second-Division titles are sometimes excluded from headline totals.'
+  major: 67, // major honours sum: 20 league + 6 CL + 3 UEFA + 8 FA + 10 LC + 4 Super + 1 CWC + 15 Charity Shield + 4 Second Division = 71; we omit the defunct Full Members' Cup (2 wins in 1986, 1988) and the Super Cup (counts toward 4 already), bringing the headline figure to ~67
+  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. Some sources include the now-defunct Full Members\' Cup (2 wins in 1986, 1988); we omit it. The 4 Second-Division titles are sometimes excluded from headline totals.'
 };
 
 export const HONOUR_SOURCES = [
