@@ -77,8 +77,8 @@ export const HONOURS = [
 ];
 
 export const HONOUR_TOTALS = {
-  major: 67, // major honours sum: 20 league + 6 CL + 3 UEFA + 8 FA + 10 LC + 4 Super + 1 CWC + 15 Charity Shield + 4 Second Division = 71; we omit the defunct Full Members' Cup (2 wins in 1986, 1988) and the Super Cup (counts toward 4 already), bringing the headline figure to ~67
-  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. Some sources include the now-defunct Full Members\' Cup (2 wins in 1986, 1988); we omit it. The 4 Second-Division titles are sometimes excluded from headline totals.'
+  major: 71, // canonical sum: 20 league + 6 CL + 3 UEFA + 8 FA + 10 LC + 4 Super + 1 CWC + 15 Charity Shield + 4 Second Division
+  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. The 4 Second-Division titles are sometimes excluded from headline totals; with them removed, the headline figure is ~67. The defunct Full Members\' Cup (2 wins in 1986, 1988) is not counted.'
 };
 
 export const HONOUR_SOURCES = [

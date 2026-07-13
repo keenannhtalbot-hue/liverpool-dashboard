@@ -7,12 +7,12 @@ export const ERAS = [
     name: 'Founding Years',
     years: '1892–1959',
     manager: 'Various',
-    summary: 'Founded 3 June 1892 by John Houlding after a rent dispute with Everton. Four second-division titles (1893-94, 1895-96, 1896-97, 1904-05) and two league titles before WWI (1900-01 and 1905-06). The FA Cup final was reached once before the war — lost to Burnley in 1914. After 1923 the club drifted, spending long stretches in the Second Division.',
+    summary: 'Founded 3 June 1892 by John Houlding after a rent dispute with Everton. Won three Second Division titles (1893-94, 1895-96, 1904-05), then two league titles before WWI (1900-01 and 1905-06). Reached the FA Cup final twice before the war (lost 1914 to Burnley) and again in 1950 (lost to Arsenal). After 1923 the club drifted, spending long stretches in the Second Division.',
     bullets: [
       'Founded 1892 after Everton left for Goodison Park',
       'First top-flight title: 1900-01 — won by 2 points from Sunderland',
-      'Second top-flight title: 1905-06; runners-up in the FA Cup 1914 (lost to Burnley)',
-      'Lost the FA Cup final again 1950 (to Arsenal)',
+      'Second top-flight title: 1905-06',
+      'Lost FA Cup finals 1914 (Burnley) and 1950 (Arsenal)',
       'Bill Shankly appointed manager 1 December 1959'
     ]
   },

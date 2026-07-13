@@ -9,7 +9,7 @@ export const RECORDS = [
       { what: 'All-time top scorer (all comps)', who: 'Ian Rush', val: '346 goals', why: '1980–87 & 1988–96 · 660 apps · 5 league titles · 2 European Cups', url: 'https://en.wikipedia.org/wiki/Ian_Rush' },
       { what: 'Top Premier League scorer (LFC)', who: 'Mohamed Salah', val: '~210 PL goals', why: '2017–present · closing in on Rush\'s all-comps record', url: 'https://en.wikipedia.org/wiki/Mohamed_Salah' },
       { what: 'Top post-war goals in a season', who: 'Roger Hunt', val: '41 league goals', why: '1961-62 · won the Footballer of the Year', url: 'https://en.wikipedia.org/wiki/Roger_Hunt' },
-      { what: 'Most goals in a single match', who: 'Ian Rush vs QPR', val: '5 goals', why: '5 March 1986 · Milk Cup (League Cup) semi-final 1st leg · Liverpool 10 QPR 0 at Anfield', url: 'https://www.lfchistory.net/players/301/games/1985-86' }
+      { what: 'Most goals in a single match', who: 'Ian Rush vs QPR', val: '5 goals', why: '5 March 1986 · Milk Cup (League Cup) semi-final · Liverpool won on aggregate; specific leg score varies by source', url: 'https://en.wikipedia.org/wiki/Ian_Rush' }
     ]
   },
   {
