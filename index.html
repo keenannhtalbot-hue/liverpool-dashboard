@@ -10,6 +10,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="format-detection" content="telephone=no" />
 
+  <!-- Restrictive CSP: this dashboard serves only same-origin static assets. Inline styles
+       are required for the Apple-touch-icon status bar + initial page render. Inline scripts
+       are required for the module boot. Upgrade to external hashed assets for a tighter CSP. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';" />
+
   <title>Liverpool FC — Deep Dive</title>
 
   <link rel="manifest" href="./manifest.webmanifest" />
@@ -64,7 +69,7 @@
   <main id="main">
 
     <!-- OVERVIEW -->
-    <section class="page" data-page="overview" hidden>
+    <section class="page" data-page="overview" id="page-overview" role="tabpanel" aria-labelledby="tab-overview" hidden>
       <div class="hero">
         <div class="hero-eyebrow">LIVERPOOL FOOTBALL CLUB</div>
         <h1>You'll Never Walk Alone</h1>
@@ -163,49 +168,49 @@
     </section>
 
     <!-- LEGENDS -->
-    <section class="page" data-page="legends" hidden>
+    <section class="page" data-page="legends" id="page-legends" role="tabpanel" aria-labelledby="tab-legends" hidden>
       <h1>Legends</h1>
       <p class="lede">The players and managers who shaped the club. Verified appearances and goals; click any card for the long version.</p>
       <div id="legends-grid" class="grid"></div>
     </section>
 
     <!-- HONOURS -->
-    <section class="page" data-page="honours" hidden>
+    <section class="page" data-page="honours" id="page-honours" role="tabpanel" aria-labelledby="tab-honours" hidden>
       <h1>Trophies &amp; Honours</h1>
       <p class="lede">Every major piece of silverware, by competition, with the year-by-year breakdown.</p>
       <div id="honours-tables"></div>
     </section>
 
     <!-- ANFIELD -->
-    <section class="page" data-page="anfield" hidden>
+    <section class="page" data-page="anfield" id="page-anfield" role="tabpanel" aria-labelledby="tab-anfield" hidden>
       <h1>Anfield</h1>
       <p class="lede">The home ground since 1892. Bought for £9,000, now worth roughly a billion.</p>
       <div id="anfield-content"></div>
     </section>
 
     <!-- RECORDS -->
-    <section class="page" data-page="records" hidden>
+    <section class="page" data-page="records" id="page-records" role="tabpanel" aria-labelledby="tab-records" hidden>
       <h1>The Numbers</h1>
       <p class="lede">All-time records, transfer fees, biggest wins, longest runs. Every claim sourced.</p>
       <div id="records-content"></div>
     </section>
 
     <!-- STORIES -->
-    <section class="page" data-page="stories" hidden>
+    <section class="page" data-page="stories" id="page-stories" role="tabpanel" aria-labelledby="tab-stories" hidden>
       <h1>Stories &amp; Moments</h1>
       <p class="lede">The matches that defined the club. Triumph, tragedy, and the long aftermath in between.</p>
       <div id="stories-timeline"></div>
     </section>
 
     <!-- ERAS -->
-    <section class="page" data-page="eras" hidden>
+    <section class="page" data-page="eras" id="page-eras" role="tabpanel" aria-labelledby="tab-eras" hidden>
       <h1>The Eras</h1>
       <p class="lede">Eight managerial eras, 134 years, and a pattern that keeps repeating: build, dominate, fall, rebuild.</p>
       <div id="eras-content"></div>
     </section>
 
     <!-- SOURCES -->
-    <section class="page" data-page="sources" hidden>
+    <section class="page" data-page="sources" id="page-sources" role="tabpanel" aria-labelledby="tab-sources" hidden>
       <h1>Sources</h1>
       <p class="lede">Where every number and story in this dashboard came from. Click through to verify.</p>
       <div id="sources-content"></div>

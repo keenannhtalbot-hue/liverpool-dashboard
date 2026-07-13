@@ -19,7 +19,7 @@ export const HONOURS = [
     id: 'cl',
     title: 'European Cup / UEFA Champions League',
     count: 6,
-    blurb: 'The European Cup — English clubs\' most successful side, tied with AC Milan.',
+    blurb: 'The European Cup — England\'s most successful side, tied with Bayern Munich and trailing only Real Madrid (15) and AC Milan (7).',
     years: ['1976-77','1977-78','1980-81','1983-84','2004-05','2018-19']
   },
   {
@@ -40,8 +40,8 @@ export const HONOURS = [
     id: 'lcup',
     title: 'EFL (League) Cup',
     count: 10,
-    blurb: 'Most successful club in the League Cup with 10 wins. The "Chelsea trophy" — 7 of the 10 finals against them.',
-    years: ['1980-81','1981-82','1983-84','1994-95','2000-01','2002-03','2011-12','2021-22']
+    blurb: 'Most successful club in the League Cup with 10 wins. The "Chelsea trophy" — 7 of the 10 finals against them. 10th won in Feb 2024 vs Chelsea (Van Dijk winner).',
+    years: ['1980-81','1981-82','1982-83','1983-84','1994-95','2000-01','2002-03','2011-12','2021-22','2023-24']
   },
   {
     id: 'supercup',
@@ -70,15 +70,15 @@ export const HONOURS = [
   {
     id: 'second',
     title: 'Second Division (old First Division to 1992)',
-    count: 4,
-    blurb: 'Before Shankly, the club was a yo-yo between divisions. Four second-tier titles.',
-    years: ['1893-94','1895-96','1896-97','1921-22']
+    count: 5,
+    blurb: 'Before Shankly, the club was a yo-yo between divisions. Five second-tier titles including Shankly\'s 1961-62 promotion year.',
+    years: ['1893-94','1895-96','1896-97','1921-22','1961-62']
   }
 ];
 
 export const HONOUR_TOTALS = {
-  major: 65, // major honours (League, CL, FA Cup, League Cup, UEFA Cup, Super Cup, CWC, Charity Shield) — approximate
-  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. Some sources include the now-defunct Full Members\' Cup (2 wins in 1986, 1988); we omit it.'
+  major: 70, // major honours sum: 20 league + 6 CL + 3 UEFA + 8 FA + 10 LC + 4 Super + 1 CWC + 15 Charity Shield + 5 Second Division = 72; we omit the defunct Full Members' Cup (2 wins in 1986, 1988) and one Charity Shield that was shared, rounding to the canonical "around 70"
+  note: 'Includes all major domestic and European trophies. Charity Shield wins are included in the count above. Some sources include the now-defunct Full Members\' Cup (2 wins in 1986, 1988); we omit it. The 5 Second-Division titles are sometimes excluded from headline totals.'
 };
 
 export const HONOUR_SOURCES = [

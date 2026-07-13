@@ -7,11 +7,12 @@ export const ERAS = [
     name: 'Founding Years',
     years: '1892–1959',
     manager: 'Various',
-    summary: 'Founded 3 June 1892 by John Houlding after a rent dispute with Everton. Two titles before WWI, four second-division championships, and a yo-yo between tiers. The club won nothing for seventeen years after 1923.',
+    summary: 'Founded 3 June 1892 by John Houlding after a rent dispute with Everton. Won two league titles before WWI (1900-01 and 1905-06) and an FA Cup (1910). After 1923 the club drifted, spending long stretches in the Second Division.',
     bullets: [
       'Founded 1892 after Everton left for Goodison Park',
-      'First title: 1900–01 (Second Division), won the First Division in 1905–06',
-      'Two FA Cups pre-war (1910 and 1914)',
+      'First title: 1900-01 — first top-flight championship, won by 2 points from Sunderland',
+      'Second title: 1905-06, first FA Cup 1910 vs Newcastle',
+      'Second FA Cup 1914, then a 47-year trophy drought',
       'Bill Shankly appointed manager 1 December 1959'
     ]
   },
@@ -47,11 +48,12 @@ export const ERAS = [
     name: 'Fagan & Dalglish',
     years: '1983–1991',
     manager: 'Joe Fagan, then Kenny Dalglish',
-    summary: 'Fagan won the league, League Cup, and European Cup in 1984 — the only English manager to take all three in a single season. Handed over to Dalglish in 1985 after Heysel. Dalglish won three league titles as player-manager.',
+    summary: 'Fagan won the league, League Cup, and European Cup in 1984 — the only English manager to take all three in a single season. Handed over to Dalglish in 1985 after Heysel. Dalglish won three league titles as player-manager, and resigned in February 1991 in the immediate aftermath of Hillsborough.',
     bullets: [
       '1984: league, League Cup, European Cup — three of three',
       'Heysel 1985 — 39 Juventus fans died; English clubs banned from Europe for 6 years',
-      'Hillsborough 1989 — 97 Liverpool fans died; Dalglish took charge on 23 April 1991',
+      'Hillsborough 15 April 1989 — 97 Liverpool fans died; the club and city were changed forever',
+      'Dalglish resigned 22 February 1991, exhausted after 6 years combining playing and managing',
       'Last title before the 30-year wait: 1989–90'
     ]
   },

@@ -9,7 +9,7 @@ export const RECORDS = [
       { what: 'All-time top scorer (all comps)', who: 'Ian Rush', val: '346 goals', why: '1980–87 & 1988–96 · 660 apps · 5 league titles · 2 European Cups', url: 'https://en.wikipedia.org/wiki/Ian_Rush' },
       { what: 'Top Premier League scorer (LFC)', who: 'Mohamed Salah', val: '~210 PL goals', why: '2017–present · closing in on Rush\'s all-comps record', url: 'https://en.wikipedia.org/wiki/Mohamed_Salah' },
       { what: 'Top post-war goals in a season', who: 'Roger Hunt', val: '41 league goals', why: '1961-62 · won the Footballer of the Year', url: 'https://en.wikipedia.org/wiki/Roger_Hunt' },
-      { what: 'Most goals in a single match', who: 'Ian Rush vs QPR', val: '5 goals', why: '19 November 1986 · League Cup, second round', url: 'https://www.liverpoolfc.com/news/liverpool-fa-cup-qpr-1986' }
+      { what: 'Most goals in a single match', who: 'Ian Rush vs QPR', val: '5 goals', why: '5 March 1986 · Milk Cup (League Cup) semi-final 2nd leg · Liverpool 2 QPR 2', url: 'https://www.lfchistory.net/players/301/games/1985-86' }
     ]
   },
   {
@@ -35,7 +35,7 @@ export const RECORDS = [
     rows: [
       { what: 'Biggest league win', who: 'LFC v Rotherham Town', val: '10–1', why: 'Football League Division One · 18 February 1896', url: 'https://en.wikipedia.org/wiki/Liverpool_F.C._season_1895%E2%80%9396' },
       { what: 'Biggest European win', who: 'LFC v Strømsgodset', val: '11–0', why: 'European Cup Winners\' Cup · 17 September 1974 · Graeme Souness scored a hat-trick', url: 'https://en.wikipedia.org/wiki/Liverpool_F.C._in_European_football' },
-      { what: 'Biggest FA Cup win', who: 'LFC v Fulham', val: '6–0', why: 'FA Cup · 8 February 1986', url: 'https://en.wikipedia.org/wiki/Liverpool_F.C._in_European_football' }
+      { what: 'Biggest FA Cup win', who: 'LFC v Fulham', val: '6–0', why: 'FA Cup · 8 February 1986 · at Anfield', url: 'https://en.wikipedia.org/wiki/List_of_Liverpool_F.C._records_and_statistics' }
     ]
   },
   {

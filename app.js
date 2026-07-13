@@ -138,12 +138,13 @@ function renderLegends() {
     card.append(el('p', { class: 'bio', html: `<em style="color:var(--text-3);font-size:12px;">${p.legacy}</em>` }));
     root.append(card);
   }
-  // Source link
+  // Source link — appended to the page container (root.parentElement) so it spans the
+  // full width of the page, not a single grid column.
   const src = el('p', { class: 'footnote' });
   for (const s of LEGEND_SOURCES) {
     src.append(el('a', { href: s.url, target: '_blank', rel: 'noopener noreferrer', text: s.label }), ' · ');
   }
-  root.append(src);
+  root.parentElement.appendChild(src);
 }
 
 // ---- RENDER: HONOURS ----

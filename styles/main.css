@@ -42,7 +42,7 @@ html, body {
 }
 
 body {
-  padding-top: calc(60px + var(--safe-top));
+  padding-top: calc(108px + var(--safe-top));
   padding-bottom: calc(220px + var(--safe-bottom));
   overflow-x: hidden;
 }
