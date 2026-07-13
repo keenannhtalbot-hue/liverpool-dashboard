@@ -201,11 +201,11 @@ export const PLAYERS = [
     name: 'Mohamed Salah',
     full: 'Mohamed Salah Hamed Mahrous Ghaly',
     position: 'Forward',
-    era: '2017–present',
+    era: '2017–2026',
     apps: 472,
-    goals: 245,
-    bio: '£43m from Roma in 2017. 32 PL goals in his debut season — a record. 4th, 4th, 2nd, 1st, 2nd in Ballon d\'or voting since 2018. LFC\'s all-time top Premier League goalscorer and now closing in on Rush\'s overall record. PFA Player of the Year 2024-25.',
-    tag: 'Active · Goal machine',
+    goals: 255,
+    bio: '£43m from Roma in 2017. 32 PL goals in his debut season — a record. 4th, 4th, 2nd, 1st, 2nd in Ballon d\'or voting since 2018. Only the third player to score 250+ Liverpool goals (Rush, Hunt, Salah). LFC\'s all-time top Premier League goalscorer (191 PL goals, end 24/25). PFA Player of the Year 2024-25. Announced in March 2026 he will leave Liverpool at the end of the 2025-26 season.',
+    tag: 'Egyptian King · Departing 2026',
     legacy: 'Egypt\'s King of Liverpool.'
   },
   {

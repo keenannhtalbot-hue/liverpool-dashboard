@@ -84,13 +84,13 @@ export const STORIES = [
   },
   {
     id: 'palace-slip',
-    date: '16 May 2014',
+    date: '5 May 2014',
     title: 'The Crystal Palace collapse',
     opponent: 'Crystal Palace',
     score: '3–3',
     kind: 'complex',
-    summary: 'Title-decider. Three points clear of Man City with three games to go. 3-0 up after 55 minutes at Selhurst Park. Then Delaney (79), Gerrard own goal (80), and Gayle (88). Gerrard\'s leg in the team photo two weeks later, and the slip against Chelsea on 27 April, cost Liverpool the title on goal difference.',
-    why: 'The cruellest 30 minutes in the Suárez era. "We\'ve let it slip" — Gerrard, in a Sky Sports interview that has lived rent-free in his head ever since.',
+    summary: 'Final game of the 2013-14 Premier League season at Selhurst Park. Three points clear of Manchester City in second with a game to go. 3-0 up after 55 minutes. Then Delaney (79), Gerrard own goal (80), and Gayle (88). Manchester City won their last two games and took the title by 2 points on goal difference.',
+    why: 'The 2013-14 title race\'s most agonising half-hour. "We\'ve let it slip" — Gerrard, in a Sky Sports interview that has lived rent-free in his head ever since. Combined with the slip against Chelsea on 27 April, the defining "what-if" of the Suárez era.',
     sources: [
       { label: 'BBC match report', url: 'https://www.bbc.com/sport/football/27465620' }
     ]
@@ -126,10 +126,10 @@ export const STORIES = [
     date: '30 May 1984',
     title: 'Istanbul #1',
     opponent: 'Roma',
-    score: '4–2 on penalties',
+    score: '1–1, 4–2 pens',
     kind: 'triumph',
-    summary: 'European Cup Final at Roma\'s Stadio Olimpico — in Roma\'s own city. Phil Neal penalty saved, then four Roma penalties missed. Grobbelaar\'s spaghetti legs became the most-replayed save in European football history.',
-    why: 'The fourth European Cup — Liverpool surpass Bayern Munich and Ajax. The night penalty psychology entered the mainstream.',
+    summary: 'European Cup Final at Roma\'s Stadio Olimpico — in Roma\'s own city. Phil Neal scored for Liverpool, Pruzzo equalised for Roma. 1-1 after 120 minutes. Then the famous penalty shootout — Neal missed Liverpool\'s first, then four Roma players missed theirs (one saved by Grobbelaar, two saved again, one skied over). Liverpool won 4-2 on pens. Grobbelaar\'s "spaghetti legs" routine before Roma\'s last penalty is one of the most replayed moments in European football history.',
+    why: 'The fourth European Cup — Liverpool overtake Bayern Munich and Ajax. The night penalty psychology entered the mainstream.',
     sources: [
       { label: 'UEFA: 1984 Final', url: 'https://www.uefa.com/uefachampionsleague/match/64478/' }
     ]
@@ -141,7 +141,7 @@ export const STORIES = [
     opponent: 'Alavés',
     score: '5–4 golden goal',
     kind: 'triumph',
-    summary: 'UEFA Cup Final in Dortmund. 4-4 after 117 minutes, Michael Owen\'s golden goal to win 5-4. Days after winning the FA Cup 2-1 vs Arsenal, having already won the League Cup. The treble — League Cup, FA Cup, UEFA Cup — at the dawn of the new millennium.',
+    summary: 'UEFA Cup Final in Dortmund. 4-4 after 117 minutes, Michael Owen\'s golden goal to win 5-4. Days after winning the FA Cup 2-1 vs Arsenal (Michael Owen both goals), having already won the League Cup in February. The treble — League Cup, FA Cup, UEFA Cup — at the dawn of the new millennium.',
     why: 'Houllier\'s team completed a unique treble in a single season. Owen\'s name entered the Kop songs for good.',
     sources: [
       { label: 'Wikipedia: 2000-01 LFC season', url: 'https://en.wikipedia.org/wiki/2000%E2%80%9301_Liverpool_F.C._season' }

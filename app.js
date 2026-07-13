@@ -189,7 +189,7 @@ function renderAnfield() {
 
   const stats = el('div', { class: 'quickstats' });
   const qs = [
-    { num: '61,000+', lab: 'Capacity (post-2024)', sub: 'Anfield Road End expanded' },
+    { num: '61,276', lab: 'Capacity (post-2024)', sub: 'Anfield Road End expanded' },
     { num: '134', lab: 'Years at this ground', sub: 'since 1892' },
     { num: '1906', lab: 'Spion Kop built', sub: 'named after Boer War battle' },
     { num: '£9,000', lab: 'Purchase price (1892)', sub: 'John Houlding bought the ground' }
@@ -204,8 +204,8 @@ function renderAnfield() {
   card.append(el('h2', { text: 'Anfield — the home ground' }));
   card.append(el('p', { html: `Built in 1884 as Everton FC's home, Anfield has been Liverpool's since <strong>1892</strong> when John Houlding refused to sell his Stanley Park lease to Everton FC — so Everton moved a quarter mile up the road to Goodison Park, and LFC was founded inside twelve weeks.` }));
   card.append(el('p', { html: `The <strong>Spion Kop</strong> (1906) is the most famous single-tier terrace in world football. Named after the Battle of Spion Kop in the Boer War, it held 28,000 standing fans at its peak. It was made all-seater in 1994 under the Taylor Report following Hillsborough.` }));
-  card.append(el('p', { html: `The <strong>Main Stand</strong> was rebuilt between 2014 and 2016 at a cost of £110m, becoming the largest cantilever stand in Europe. The <strong>Anfield Road End</strong> was expanded 2022–24 to add 7,000 seats, taking total capacity over 61,000.` }));
-  card.append(el('p', { html: `At the players' tunnel entrance is a small sign, placed by Bill Shankly in 1965: <em>"This is Anfield"</em>. Players touch it as they walk out for kick-off.` }));
+  card.append(el('p', { html: `The <strong>Main Stand</strong> was rebuilt between 2014 and 2016 at a cost of £110m, becoming the largest cantilever stand in Europe. The <strong>Anfield Road End</strong> was expanded 2022–24 to add ~7,000 seats, taking total capacity from 54,074 to <strong>61,276</strong>.` }));
+  card.append(el('p', { html: `At the players' tunnel entrance is a small sign, placed by Bill Shankly in <strong>1972</strong>: <em>"This is Anfield"</em>. Players touch it as they walk out for kick-off. (Shankly commissioned the sign in the 1960s, but the canonical installation date is 1972.)` }));
   root.append(card);
 
   // Attendance card

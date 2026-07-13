@@ -101,12 +101,12 @@ export const ERAS = [
     name: 'Slot Era',
     years: '2024–present',
     manager: 'Arne Slot',
-    summary: 'Dutch successor to Klopp. A more possession-led, less counter-pressing style. Won the Premier League title in his first season — title number 20, equalling Manchester United\'s all-time top-flight record.',
+    summary: 'Dutch successor to Klopp. A more possession-led, less counter-pressing style. Won the Premier League title in his first season — title number 20, equalling Manchester United\'s all-time top-flight record. Salah won PFA Player of the Year 2024-25 then announced in March 2026 he will leave the club at the end of 2025-26. Florian Wirtz signed for ~£100m in summer 2025.',
     bullets: [
       '2024-25: Premier League title — 84 points · 14 clear of Arsenal',
-      'Salah: PFA Player of the Year · 28 PL goals · 18 PL assists',
+      'Salah: PFA Player of the Year · 191 PL goals · ~255 in all competitions for LFC',
       'Florian Wirtz signed summer 2025 for ~£100m',
-      'Approaching 21st league title at time of writing'
+      'Salah announced his departure in March 2026 — will leave at end of 2025-26 season'
     ]
   }
 ];

@@ -7,8 +7,9 @@ export const RECORDS = [
     kind: 'all-time',
     rows: [
       { what: 'All-time top scorer (all comps)', who: 'Ian Rush', val: '346 goals', why: '1980–87 & 1988–96 · 660 apps · 5 league titles · 2 European Cups', url: 'https://en.wikipedia.org/wiki/Ian_Rush' },
-      { what: 'Top Premier League scorer (LFC)', who: 'Mohamed Salah', val: '~210 PL goals', why: '2017–present · closing in on Rush\'s all-comps record', url: 'https://en.wikipedia.org/wiki/Mohamed_Salah' },
-      { what: 'Top post-war goals in a season', who: 'Roger Hunt', val: '41 league goals', why: '1961-62 · won the Footballer of the Year', url: 'https://en.wikipedia.org/wiki/Roger_Hunt' },
+      { what: 'Top Premier League scorer (LFC)', who: 'Mohamed Salah', val: '191 PL goals', why: '2017–present · 2nd all-time PL list behind Harry Kane · leads LFC\'s internal PL list by 63 over Robbie Fowler', url: 'https://www.premierleague.com/clubs/10/Liverpool/overview' },
+      { what: 'Top post-war goals in a season', who: 'Roger Hunt', val: '41 league goals', why: '1961-62 · won the Footballer of the Year · 285 career LFC goals (2nd all-time after Rush)', url: 'https://en.wikipedia.org/wiki/Roger_Hunt' },
+      { what: 'Top European goalscorer (LFC)', who: 'Mohamed Salah', val: '~51 European goals', why: '2017–present · UEFA competitions only (excludes Super Cup and Club World Cup)', url: 'https://www.premierleague.com/clubs/10/Liverpool/overview' },
       { what: 'Most goals in a single match', who: 'Ian Rush vs QPR', val: '5 goals', why: 'March 1986 · Milk Cup (League Cup) semi-final · Rush scored all five in a single match — one of only a handful of five-goal feats in English football history', url: 'https://en.wikipedia.org/wiki/Ian_Rush' }
     ]
   },
@@ -18,6 +19,7 @@ export const RECORDS = [
     rows: [
       { what: 'All-time record', who: 'Ian Callaghan', val: '857 apps', why: '1960–1978 · 5 league titles · 1 European Cup', url: 'https://en.wikipedia.org/wiki/Ian_Callaghan' },
       { what: 'Modern-era record', who: 'Steven Gerrard', val: '710 apps', why: '1998–2015 · 186 goals · 1 CL · 2 FA Cups · 3 LCups', url: 'https://en.wikipedia.org/wiki/Steven_Gerrard' },
+      { what: 'Second all-time appearances', who: 'Jamie Carragher', val: '737 apps', why: '1997–2013 · one-club man · 150 European apps · Champions League winner 2005', url: 'https://en.wikipedia.org/wiki/Jamie_Carragher' },
       { what: 'Most European appearances', who: 'Jamie Carragher', val: '150 European apps', why: '1997–2013 · also 1st LFC to 500 PL apps', url: 'https://en.wikipedia.org/wiki/Jamie_Carragher' }
     ]
   },
